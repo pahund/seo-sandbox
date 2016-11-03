@@ -19,6 +19,13 @@
     font-size: small;
     text-align: right;
 }
+
+.App-please-wait {
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
