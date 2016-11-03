@@ -4,6 +4,7 @@ import './App.css';
 
 class App extends Component {
     render() {
+        const articleContent = document.getElementById('root').getAttribute('data-article-content');
         return (
             <div className="App">
                 <div className="App-header">
@@ -14,6 +15,12 @@ class App extends Component {
                     You've come to the right place to hang out with your friends,
                     chill and talk about Argel and Pargel. This is clearly a Good Thing<sup>TM</sup>
                 </p>
+                <p>
+                    Here's what our customers have to say:
+                </p>
+                <quote>
+                    {articleContent}
+                </quote>
             </div>
         );
     }
