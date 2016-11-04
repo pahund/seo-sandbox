@@ -10,4 +10,11 @@ sup {
     font-size: smaller;
 }
 
+a, a:active, a:visited {
+    color: hotpink;
+}
 
+a:hover {
+    background-color: hotpink;
+    color: darkolivegreen;
+}

@@ -1,0 +1,20 @@
+.Home {
+    padding: 1em 1em;
+}
+
+.Home-intro {
+    font-size: large;
+}
+
+.Home-technical-note {
+    font-size: small;
+    text-align: right;
+}
+
+.Home-please-wait {
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
