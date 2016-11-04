@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { getDataAttr, rootElement } from '../util';
 import './Home.css';
 
 const delay = {
@@ -53,7 +54,7 @@ class Home extends Component {
     }
 
     render() {
-        const customerQuote = document.getElementById('root').getAttribute('data-customer-quote');
+        const customerQuote = getDataAttr(rootElement, 'custom-quote');
         const { choMessage, faq1, faq2, faq3 } = this.state;
         return (
             <div className="Home">
