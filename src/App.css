@@ -11,21 +11,6 @@
     text-align: center;
 }
 
-.App-intro {
-    font-size: large;
-}
-
-.App-technical-note {
-    font-size: small;
-    text-align: right;
-}
-
-.App-please-wait {
-    background-color: hotpink;
-    color: black;
-    text-align: center;
-    padding: 2rem;
-}
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
@@ -34,3 +19,24 @@
         transform: rotate(360deg);
     }
 }
+
+.App-navigation {
+    border-bottom: 2px solid hotpink;
+    padding: .5em 0;
+}
+.App-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.App-navigation ul li {
+    display: inline;
+}
+
+.App-navigation ul li a {
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+

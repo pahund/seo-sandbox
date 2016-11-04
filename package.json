@@ -8,8 +8,10 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "history": "^4.4.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-router": "^4.0.0-alpha.5"
   },
   "scripts": {
     "start": "react-scripts start",
